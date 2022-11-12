@@ -1,0 +1,18 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node main.js",
+    "install": "node main.js install -u admin -p admin -h cluster0.kxuni.mongodb.net",
+    "uninstall": "node main.js uninstall -u admin -p admin -h cluster0.kxuni.mongodb.net"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "mongodb": "^4.11.0"
+  }
+}
